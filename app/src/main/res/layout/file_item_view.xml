@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/layout_FileItem"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:orientation="horizontal"
+    android:weightSum="1">
+
+    <ImageView
+        android:id="@+id/imgFileIcon"
+        android:layout_width="0dp"
+        android:layout_weight=".25"
+        android:layout_height="match_parent"
+        android:src="@mipmap/ic_launcher_round"
+        android:paddingRight="25dp"
+        android:paddingLeft="15dp"
+        />
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight=".50"
+        android:layout_height="match_parent"
+        android:weightSum="1"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/txtFileName"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".5"
+            android:padding="5dp"
+            android:textSize="25sp"
+            android:text="hsdgfkhbdh"
+            android:textColor="#1A237E"
+            android:gravity="left|bottom"/>
+        <TextView
+            android:id="@+id/txtFileLstMdfd"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".5"
+            android:textSize="20sp"
+            android:padding="5dp"
+            android:text="hsdgfkhbdh"
+            android:gravity="left|top"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txtFileSize"
+        android:layout_width="0dp"
+        android:layout_weight=".25"
+        android:layout_height="match_parent"
+        android:text="hjbjbkjbj"
+        android:textSize="20sp"
+        android:gravity="center|right"
+        android:paddingRight="5dp"/>
+
+</LinearLayout>
